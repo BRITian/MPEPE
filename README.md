@@ -21,7 +21,7 @@ Quick Start to install the required program
 
 Predict the soluble expression of the sequence in E.coli 
 ====
-Put the model folder ((MPEPE/MODELS-1027/), the predicted python file (MPEPE_pred.codonc4.py) and the nucleic acid sequence file (FILE_NAME.fa, or fasta file with any extension) to be predicted in the same directory, and enter the python=2.7 environment to run:
+Put the model folder (MPEPE/MODELS-1027/), the predicted python file (MPEPE_pred.codonc4.py) and the nucleic acid sequence file (FILE_NAME.fa, or fasta file with any extension) to be predicted in the same directory, and enter the python=2.7 environment to run:
 
 	python MPEPE_pred.codonc4.py FILE_NAME.fa
 
