@@ -2,7 +2,7 @@
 
 Introduction
 ====
-MPEPE (codonc4) is a prediction method based on deep learning to improve E. coli protein expression. We provide MPEPE's codonc4 model (MPEPE/MODELS-1027/*.h5), prediction example sequence (MPEPE/Example/*.fa) and its result example (MPEPE/Example/2021_11_5_Pred1027/*.res)
+**MPEPE** is a prediction method based on deep learning to improve _E.coli_ protein expression. Here, we provided MPEPE's codonc4 model (**MPEPE/MODELS-1027/*.h5**), prediction example sequence (**MPEPE/Example/*.fa**) and its result example (**MPEPE/Example/2021_11_5_Pred1027/*.res**).
 
 System requirement
 =====
@@ -13,7 +13,7 @@ System requirement
 
 Quick Start to install the required program
 =====
-1. Install the python 2.7 from Anaconda https://www.anaconda.com/
+1. Install the python 2.7 (from Anaconda https://www.anaconda.com/)
 2. pip install tensorflow==1.15.0 (python=2.7)
 3. pip install keras==2.1.5
 4. pip install theano==1.0.5
@@ -21,7 +21,7 @@ Quick Start to install the required program
 
 Predict the soluble expression of the sequence in E.coli 
 ====
-Put the model folder (MPEPE/MODELS-1027/), the predicted python file (MPEPE_pred.codonc4.py) and the nucleic acid sequence file (FILE_NAME.fa, or fasta file with any extension) to be predicted in the same directory, and enter the python=2.7 environment to run:
+Put the model folder (**MPEPE/MODELS-1027/**), the predicted python file (**MPEPE_pred.codonc4.py**) and the nucleic acid sequences file (**FILE_NAME.fa**, or fasta file with any extension) to be predicted in the same directory, and then enter the python=2.7 environment to run:
 
 	python MPEPE_pred.codonc4.py FILE_NAME.fa
 
@@ -40,4 +40,4 @@ In addition to the comment("#") rows, there are three columns. The first column 
 	ZR319-5	0.8499	0.0674
 	ZR310-5	0.8511	0.0575
 
-As shown in the example (high_expression_seq.fa) results above, the larger the value in the second column (AVE), the better the expression of the sequence in E. coli. 
+As shown in the example (**high_expression_seq.fa**) results above, the larger the value in the second column (AVE), the better the expression of the sequence in _E. coli_. 
