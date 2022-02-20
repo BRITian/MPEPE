@@ -49,7 +49,7 @@ As shown in the example (**high_expression_seq.fa**) results above, the larger t
 
 Model building
 ====
-Put the coding folder (**coding-1027**) and the python file (**keras_train_cnn_lstm_v6-1027.py**) in the dataset folder (**Dataset** ) in the same working directory, and then enter the python=2.7 environment to build the model according to your own needs.
+Put the coding folder (**MPEPE/coding-1027**) and the python file (**MPEPE/keras_train_cnn_lstm_v6-1027.py**) in the dataset folder (**MPEPE/Dataset** ) in the same working directory, and then enter the python=2.7 environment to build the model according to your own needs.
 
 If you want to build **codonc3 models**, run: 
 
