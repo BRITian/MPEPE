@@ -4,6 +4,11 @@ Introduction
 ====
 **MPEPE** is a prediction method based on deep learning to improve _E.coli_ protein expression. Here, we provided MPEPE's codonc4 model (**MPEPE/MODELS-1027/*.h5**), prediction example sequence (**MPEPE/Example/*.fa**) and its result example (**MPEPE/Example/2021_11_5_Pred1027/*.res**).
 
+**Note**[1]:
+1. "codonc3" represents: Synonymous codon number;
+2. "aac3" represents: The specific amino acid;
+3. "codonc4" represents: Specific nucleotide combination.
+
 System requirement
 =====
 1. Python 2.7
@@ -41,3 +46,25 @@ In addition to the comment("#") rows, there are three columns. The first column 
 	ZR310-5	0.8511	0.0575
 
 As shown in the example (**high_expression_seq.fa**) results above, the larger the value in the second column (AVE), the better the expression of the sequence in _E. coli_. 
+
+Model building
+====
+Put the coding folder (**coding-1027**) and the python file (**keras_train_cnn_lstm_v6-1027.py**) in the dataset folder (**Dataset** ) in the same working directory, and then enter the python=2.7 environment to build the model according to your own needs.
+
+If you want to build **codonc3 models**, run: 
+
+	python keras_train_cnn_lstm_v6-1027.py codonc3
+
+If you want to build **aac3 models**, run: 
+
+	python keras_train_cnn_lstm_v6-1027.py aac3
+
+If you want to build **codonc4 models**, run: 
+
+	python keras_train_cnn_lstm_v6-1027.py codonc4
+
+Eventually, a Log folder (**LOGs-1027**) and a Models folder (**MODELs-1027**) will be created in the working directory. 
+
+References
+====
+  [1] Ding Z, Guan F, Xu G, Wang Y, Yan Y, Wu N, et al. MPEPE, a predictive approach to improve protein expression in E. coli based on deep learning.
