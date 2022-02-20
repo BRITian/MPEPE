@@ -1,1 +1,6 @@
-None
+Categorize protein expression scores provided in previous research literature, 
+where **scores (0, 1, 2, 3, 4, 5)** correspond to groups (1, 2, 3, 4, 5, 6), 
+groups 1, 2, 3 As a negative dataset (lowly expressed proteins: 2308 entries), 
+group 6 served as a positive dataset (highly expressed proteins: 1973 entries). 
+
+The two datasets are generated through a ten-fold cross-validation strategy and three sequence encoding methods to generate a test set and a training set. 
