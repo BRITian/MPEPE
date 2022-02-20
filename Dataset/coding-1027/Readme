@@ -1,4 +1,5 @@
-## Create test sets and training sets ##
+Create test sets and training sets
+====
   Categorize protein expression scores provided in previous research literature[1], 
   where scores (0, 1, 2, 3, 4, 5) correspond to groups (1, 2, 3, 4, 5, 6), 
   groups 1, 2, 3 As a negative dataset (lowly expressed proteins: 2308 entries), 
@@ -7,12 +8,14 @@
   The two datasets generate test sets and training sets through the ten-fold cross-validation strategy and three sequence encoding methods[2].
 
 
-## Note ##
+Note
+====
   "codonc3" represents: Synonymous codon number;
   "aac3" represents: The specific amino acid;
   "codonc4" represents: Specific nucleotide combination.
 
 
-## References ##
+References
+====
   [1] Boel G, Letso R, Neely H, Price WN, Wong KH, Su M, et al. Codon influence on protein expression in E. coli correlates with mRNA levels. Nature 2016; 529:358.
   [2] Ding Z, Guan F, Xu G, Wang Y, Yan Y, Wu N, et al. MPEPE, a predictive approach to improve protein expression in E. coli based on deep learning.
